@@ -1,0 +1,583 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: "微软雅黑";
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    height: 86px;
+}
+
+.header .logo {
+    width: 125px;
+    height: 45px;
+    margin : 23px 0 0 67px;
+}
+.header .header-right {
+    float: right;
+    margin: -29px 10px 0 0 ;
+    height: 143px;
+    width: 143px;
+    border-radius: 50%;
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+.header .header-right .menu-button {
+    width: 24px;
+    height: 20px;
+    margin: 65px 0 0 58px;
+}
+
+
+.banner {
+    width: 100%;
+    position: absolute;
+    top: 86px;
+    height: 570px;
+    background: url("../img/banner_bk.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.banner .image-outer {
+    width: 1154px;
+    height: 448px;
+    margin: 105px auto 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner ul.image {
+    position: absolute;
+    width: 5770px;
+    height: 448px;
+    left: -1154px;
+    z-index: 1;
+    text-shadow: -16px 16px 8px #f0f0f0;
+}
+
+.banner ul.image li {
+    float: left;
+}
+
+.banner ul.image li img {
+    border-radius: 15px;
+}
+
+.banner ul.list-num {
+    position: absolute;
+    left: 25px;
+    top: 385px;
+    z-index: 2;
+    vertical-align : top;
+}
+
+.banner ul.list-num li {
+    margin-right: 10px;
+    float: left;
+    font-size: 29px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.banner ul.list-num li.selected {
+    margin-top: -4px;
+    font-size: 33px;
+    color: #ff2d4b;
+}
+
+.about-us {
+    width: 100%;
+    position: absolute;
+    top: 656px;
+}
+.about-us .intro-essay{
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+
+.about-us .intro-essay h2,
+.our-team h2,
+.presence h2 {
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: 0.4em;
+}
+
+.about-us .intro-essay h2 span,
+.our-team h2 span,
+.presence h2 span {
+    letter-spacing: 0em;
+}
+
+.about-us .intro-essay h3 {
+    margin-bottom: 25px;
+}
+
+.about-us .intro-essay h3,
+.our-team h3,
+.presence h3 {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 0.18em;
+}
+
+.about-us .intro-essay p,
+.presence .presence-essay p {
+    font-size: 16px;
+    line-height: 43px;
+    letter-spacing: 0.1em;
+}
+
+.about-us .show-product {
+    width: 192px;
+    height: 64px;
+    margin: 70px auto 0 auto;
+    border: 4px solid #4c4c4c;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 64px;
+    color: #4c4c4c;
+}
+
+
+.about-us .intro-image {
+    width: 1088px;
+    height: 1120px;
+    margin: 150px auto 0 auto;
+}
+
+
+.about-us .intro-image .intro-square,
+.about-us .intro-image .intro-circle {
+    margin-right: 32px;
+    margin-bottom: 31px;   
+}
+
+
+.about-us .intro-image  .img-wrap {
+    float: left;
+    margin-right: 32px;
+    margin-bottom: 31px;
+    display: inline-block;
+    overflow: hidden;
+} 
+
+
+.about-us .intro-image .img-wrap img {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+}
+
+.about-us .intro-image .img-wrap img:hover {
+    transform: scale(1.15,1.15);
+}
+
+
+.about-us .intro-image .intro-circle {
+    float: left;
+    clear: left;
+    margin-left: -2px;
+}
+.about-us .intro-image .intro-IEEE {
+    clear: left;
+}
+
+.about-us .intro-image .intro-yzbs {
+    clear: left;
+}
+
+
+.about-us .intro-image .intro-square, 
+.about-us .intro-image .youth-img-wrap, 
+.about-us .intro-image .eux-img-wrap,
+.about-us .intro-image .download-img-wrap {
+    margin: 0;
+}
+
+
+
+.our-team {
+    position: absolute;
+    top: 2900px;
+    text-align: center;
+    width: 100%;
+}
+
+.our-team .show-team {
+    width: 100%;
+    height: 768px;
+    margin-top: 90px;
+    background-color: #2c4459;
+
+    overflow-x: hidden;
+}
+
+.our-team .show-team .team-list {
+    width: 1088px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.our-team .show-team .team-list .big-team {
+    float: left;
+    width: 224px;
+    height: 68px;
+    margin: 0px 24px 0 24px;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+.our-team .show-team .team-list .big-team-selected {
+    border-radius: 0px;
+}
+.our-team .show-team .team-list .big-team p {
+    margin-top: 22px ;
+    color: #000e1a;
+    letter-spacing: 0.2em;
+    font-size: 20px;
+
+}
+.our-team .show-team .team-list .big-team .cover {
+    width: 224px;
+    height: 15px;
+    background-color: #f3f3f3;
+    position: absolute;
+    top: 0;
+}
+
+.our-team .show-team .team-list .big-team .small-list {
+    width: 224px;
+    margin-top: 19px;
+    display: none;
+}
+
+.our-team .show-team .team-list .big-team .small-list li {
+    width: 224px;
+    height: 59px;
+    line-height: 59px;
+    background-color: #e9e9e9;
+}
+
+.our-team .show-team .team-list .big-team .small-list li img {
+    vertical-align: middle;
+}
+.our-team .show-team .team-list .big-team .small-list li.selected {
+    background-color: #fff;
+}
+.our-team .show-team .team-list .big-team .small-list .special-li {
+    padding-left: 10px;
+    width: 214px;
+}
+.our-team .show-team .team-image-wrap {
+    margin: 160px auto 0 auto;
+    width: 1207px;
+    height: 351px;  
+    position: relative;
+    z-index: 1;
+}
+
+.our-team .show-team .team-image-wrap .team-image {
+    width: 16898px;
+    position: absolute;
+    left: -1207px;
+    z-index: 1;
+}
+.our-team .show-team .team-image li {
+    float: left;
+    width: 1207px;
+    position: relative;
+}
+.our-team .show-team .team-image li img {
+    width: 1149px;
+    height: 351px;
+    display: block;
+    margin: 0 29px 0 29px;
+    border-radius: 10px;
+}
+.our-team .show-team .team-image li .black {
+    width: 1090px;
+    height: 297px;
+    margin: 0 29px 0 29px;
+    border-radius: 10px;
+    position: absolute;
+    top: 15px;
+    left: 38px;
+    background-color: #000;
+    opacity: 0.5;
+}
+/* .our-team .show-team .team-image li.middle .black {
+    opacity: 0;
+} */
+.our-team .show-team .team-image .introduction_inner {
+    height: 328px;
+}
+.our-team .show-team .image-control {
+    width: 780px;
+    height: 100px;
+    margin: 64px auto 0 auto;
+}
+.our-team .show-team .image-control .team-left,
+.our-team .show-team .image-control .team-right  {
+    float: left;
+    cursor: pointer;
+}
+.our-team .show-team .image-control .image-name {
+    position: relative;
+    width: 297px;
+    height: 94px;
+    line-height: 94px;
+    margin: 0 146px;
+    background: url("../img/team_bk.png");
+    float: left;
+    border-radius: 10px;
+}
+.our-team .show-team .image-control .image-name .image-name-img {
+    width: 100px;
+    display: none;
+}
+.our-team .show-team .image-control .image-name .on {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+}
+.presence {
+    position: absolute;
+    top: 3980px;
+    text-align: center;
+    width: 100%;
+    height: 1122px;
+}
+
+.presence .presence-bg {
+    background: url(../img/presence_bg.png) no-repeat center 80%;
+    padding-top: 1px;
+    height: 524px;
+}
+
+.presence .left-arrow {
+    position: absolute;
+    top: 30%;
+    left: 50px;
+    padding:10px 38px;
+}
+
+.presence .right-arrow {
+    position: absolute;
+    top: 30%;
+    right: 50px;
+    padding:10px 38px;
+}
+
+.presence .left-arrow:hover,
+.presence .right-arrow:hover {
+    border-radius: 50%;
+    background: rgb(221,238,251);
+}
+
+.presence .presence-img {
+    display: block;
+    margin: 90px auto 0 auto;
+
+}
+
+.presence .presence-essay {
+    margin: 130px auto 0 auto;
+    text-align: center;
+}
+.presence .join-us {
+    width: 192px;
+    height: 64px;
+    display: block;
+    margin: 80px auto 0 auto;
+    background-color: #008aff;
+    border-radius: 10px;
+    color: #fff;
+    line-height: 64px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bottom-banner {
+    width: 100%;
+    height: 128px;
+    background: url("../img/bottom_banner.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+
+    position: absolute;
+    top: 5123px;
+}
+
+.bottom-list {
+    position: absolute;
+    top: 5250px;
+
+    width: 100%;
+    height: 416px;
+    background-color: #e6e6e6;   
+}
+
+.bottom-list .main {
+    width: 1088px;
+    height: 416px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bottom-list .main .logo {
+    width: 136px;
+    height: 47px;
+    margin: 56px 0 0 96px;
+}
+
+.bottom-list h3 {
+    color: #262626;
+    font-size: 18px;
+}
+
+.bottom-list li {
+    line-height: 24px;
+}
+.bottom-list li a {
+    color: #595959;
+    font-size: 14px;
+}
+
+.bottom-list .black-line {
+    width: 14px;
+    height: 2px;
+    margin: 12px 0 21px 0;
+    background-color: #262626;
+}
+
+.bottom-list .main .product {
+    position: absolute;
+    left: 104px;
+    top: 158px;
+}
+
+.bottom-list .main .blogroll {
+    position: absolute;
+    left: 254px;
+    top: 158px;
+}
+
+.bottom-list .main .weixin {
+    position: absolute;
+    left: 412px;
+    top: 158px;
+}
+
+.bottom-list .main .weixin li {
+    float: left;
+    width: 140px;
+}
+.bottom-list .main .weixin h4 {
+    font-size: 16px;
+    color: #595959;
+}
+.bottom-list .main .weixin h5 {
+    font-size: 12px;
+    color: #808080;
+}
+.bottom-list .main .weixin img {
+    margin-top: 10px;
+}
+
+.bottom-list .main .address {
+    position: absolute;
+    left: 844px;
+    top: 158px;
+}
+
+.bottom-list .main .address li {
+    height: 60px;
+    width: 200px;
+}
+
+.bottom-list .main .address-essay {
+    position: absolute;
+    top: 54px; left: 54px;
+}
+
+.bottom-list .main .qq-essay {
+    position: absolute;
+    top: 120px; left: 54px;
+}
+
+.bottom-list .main .weibo-essay {
+    position: absolute;
+    top: 185px; left: 54px;
+}
+
+
+.bottom-list .main .address p {
+    font-size: 12px;
+    line-height: 16px;
+    color: #595959;
+}
+
+
+
+
+.bottom-copyright {
+    position: absolute;
+    top: 5666px;
+
+    width: 100%;
+    height: 160px;
+    background-color: #e0e0e0;   
+    text-align: center;
+}
+
+.bottom-copyright .eeyes-link {
+    color: #4c4c4c; 
+    text-decoration: underline;
+}
+
+.bottom-copyright ul {
+    margin-top: 32px;
+    margin-bottom: 18px;
+    display: inline-block;
+}
+.bottom-copyright ul li {
+    width: 82px;
+    height: 20px;
+    float: left;
+    font-size: 14px;
+    border-right: solid 2px #1a1a1a;
+}
+.bottom-copyright ul li a{
+    color: #1a1a1a;
+}
+.bottom-copyright ul li:last-child {
+    border: none;
+}
+
+.bottom-copyright p {
+    font-size: 12px;
+    color: #4c4c4c;
+    line-height: 24px;
+}
